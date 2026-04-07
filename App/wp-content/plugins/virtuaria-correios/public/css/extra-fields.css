@@ -1,0 +1,17 @@
+.select2-container--default .select2-selection--single,
+.woocommerce form .form-row select {
+    padding: 15.5px 18px;
+    font-size: 14px;
+    border-color: #ddd;
+    background-color: #fff;
+    height: auto;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 52px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000;
+}
+#billing_cpf_field.clear-right {
+    float: none;
+}

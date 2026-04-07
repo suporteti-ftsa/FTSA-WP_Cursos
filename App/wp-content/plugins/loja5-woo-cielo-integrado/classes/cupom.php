@@ -1,0 +1,3 @@
+<?php 
+echo wpautop(wptexturize('<p>Sua transa&ccedil;&atilde;o <b>Checkout Cielo</b> referente ao pedido <b>#'.$order_id.'</b> foi processada com sucesso.<br>A sua transa&ccedil;&atilde;o encontra-se <b>Em Processamento</b>, qualquer nova atualiza&ccedil;&atilde;o voc&ecirc; ser&aacute; notificado via e-mail.<br>Caso tenha alguma d&uacute;vida referente a transa&ccedil;&atilde;o entre em contato com o atendimento da loja.</p>'));
+?>

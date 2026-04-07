@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Block Registration and Metadata
+
+- Define all block metadata in `block.json` (name, title, category, icon, scripts, styles, supports, etc.).
+- Use the `editorScript`, `editorStyle`, `style`, and `viewScript` properties to register assets.
+- Do not hardcode block names or metadata in JS files; import from `block.json`.
+- Keep `block.json` in sync with the block's implementation and documentation.
+*/

@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Frontend View Script for Gutenberg Blocks
+
+- Use a `view.js` file for frontend-only JavaScript logic (outside the editor).
+- Register the view script in `block.json` using the `viewScript` property.
+- Keep view logic minimal and focused on interactivity not possible in PHP.
+- Scope all selectors and event handlers to the block's root class.
+- Avoid global side effects in view scripts.
+*/

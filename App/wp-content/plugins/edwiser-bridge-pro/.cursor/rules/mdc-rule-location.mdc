@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+// File: .cursor/rules/mdc-rule-location.mdc
+/*
+MDC Rule: MDC Rule File Location
+
+- All new MDC rules must be created in the ".cursor/rules" directory.
+- Each MDC rule must be stored as a separate file within this directory.
+- Do not combine multiple rules into a single file.
+- File names should be descriptive of the rule's purpose and use lowercase with hyphens (e.g., "my-feature-rule.mdc").
+- This ensures modularity, clarity, and ease of management for all MDC rules in the project.
+*/

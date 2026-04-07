@@ -1,0 +1,154 @@
+/* FTSA Woo Suite - Admin styles */
+
+/* ===== Filtros ===== */
+.wrap .ftsa-filters table.form-table th { width: 180px; }
+.wrap .ftsa-filters table.form-table td input[type="date"],
+.wrap .ftsa-filters table.form-table td input[type="text"],
+.wrap .ftsa-filters table.form-table td input[type="number"],
+.wrap .ftsa-filters table.form-table td select { min-width: 240px; }
+
+/* ===== Paginação ===== */
+.wrap .tablenav .page-numbers {
+  padding: 4px 8px;
+  margin-right: 4px;
+  border: 1px solid #ccd0d4;
+  border-radius: 3px;
+}
+.wrap .tablenav .page-numbers.current {
+  background:#2271b1;
+  color:#fff;
+  border-color:#2271b1;
+}
+
+/* ===== Ações / Totais ===== */
+.ftsa-actions { margin: 10px 0 18px; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.ftsa-actions .description { color:#646970; }
+.ftsa-totals { font-weight:600; }
+
+/* =========================================================
+   Tabelas com cabeçalho e rodapé fixos
+   ========================================================= */
+.ftsa-table-wrapper {
+  position: relative;
+  overflow: auto;         /* scroll horizontal/vertical quando necessário */
+  max-height: 70vh;       /* limite de altura p/ manter header colado */
+  border: 1px solid #ccd0d4;
+  background: #fff;
+}
+
+/* Evita bug do sticky em table (Safari/Firefox) */
+.ftsa-table-wrapper table.sticky-head {
+  border-collapse: separate !important;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* Cabeçalho fixo */
+.ftsa-table-wrapper table.sticky-head thead th,
+.ftsa-table-wrapper table.sticky-head thead td {
+  position: sticky;
+  position: -webkit-sticky;          /* Safari legacy */
+  top: 0;
+  background: #f6f7f7;               /* cor do admin */
+  background-clip: padding-box;      /* evita “vazar” borda/sombra */
+  z-index: 6;                        /* acima das linhas */
+  box-shadow: 0 2px 0 rgba(0,0,0,0.03);
+  border-top: 1px solid #ccd0d4;
+  border-bottom: 1px solid #ccd0d4;
+}
+
+/* Rodapé fixo (totais) */
+.ftsa-table-wrapper table.sticky-head tfoot th,
+.ftsa-table-wrapper table.sticky-head tfoot td {
+  position: sticky;
+  position: -webkit-sticky;          /* Safari legacy */
+  bottom: 0;
+  background: #fff;
+  background-clip: padding-box;
+  z-index: 4;                        /* abaixo do thead, acima do corpo */
+  box-shadow: 0 -2px 0 rgba(0,0,0,0.03);
+  border-top: 1px solid #ccd0d4;
+}
+
+/* Fundo sólido nas células para evitar “zebra” aparecendo sob o header sticky */
+.ftsa-table-wrapper .widefat tbody td {
+  background: #fff;
+}
+
+/* Mantém colunas compactas; remova se quiser quebra de linha geral */
+.ftsa-table-wrapper .widefat th,
+.ftsa-table-wrapper .widefat td {
+  white-space: nowrap;
+}
+
+/* =========================================================
+   Colunas fixas (checkbox + ID) — use apenas se a tabela
+   tiver a classe .sticky-cols e as células com .col-check/.col-id
+   ========================================================= */
+.sticky-cols .col-check,
+.sticky-cols .col-id {
+  background: #fff;
+}
+.sticky-cols thead .col-check,
+.sticky-cols thead .col-id {
+  background: #f6f7f7; /* combina com header */
+}
+
+/* “grudar” as duas primeiras colunas */
+.sticky-cols .col-check,
+.sticky-cols .col-id {
+  position: sticky;
+  left: 0; /* col-check */
+  z-index: 7; /* acima das células comuns; o thead tem 6 */
+  border-right: 1px solid #e2e4e7;
+}
+.sticky-cols .col-id {
+  left: 48px; /* largura da col-check (ajuste fino) */
+  z-index: 7;
+}
+
+/* garantir topo correto quando também são cabeçalhos */
+.sticky-cols thead .col-check,
+.sticky-cols thead .col-id {
+  top: 0;
+  z-index: 8; /* acima do header comum */
+}
+
+/* tamanhos das colunas fixas */
+.sticky-cols .col-check { width: 48px; min-width: 48px; max-width: 48px; text-align:center; }
+.sticky-cols .col-id    { width: 90px; min-width: 90px; max-width: 120px; }
+
+/* =========================================================
+   Barra de ações em massa + legenda (Estoque)
+   ========================================================= */
+.ftsa-bulk-bar {
+  margin: 8px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.ftsa-bulk-bar input[type="number"] { width: 110px; }
+
+.ftsa-legend { margin: 6px 0 12px; color:#646970; font-size:12px; }
+.ftsa-example-low,
+.ftsa-example-zero {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+.ftsa-example-low  { background: #fff8e5; border-color: #e0c97f; }
+.ftsa-example-zero { background: #fdecea; border-color: #e08b87; }
+
+/* Destaques nas células de Qtd/Low */
+.ftsa-cell-qty, .ftsa-cell-low { transition: background-color .15s ease; }
+.ftsa-row-low  .ftsa-cell-qty,
+.ftsa-row-low  .ftsa-cell-low { background: #fff8e5; }   /* abaixo do ponto */
+.ftsa-row-zero .ftsa-cell-qty { background: #fdecea; }    /* zerado */
+
+/* =========================================================
+   Lista do CPT Autor: novas colunas
+   ========================================================= */
+.edit-php.post-type-ftsa_author .column-ftsa_percent { width: 140px; }
+.edit-php.post-type-ftsa_author .column-ftsa_receives { width: 160px; }

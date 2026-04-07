@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: WordPress Hooks, Actions, and Filters
+
+- Use add_action() and add_filter() to extend or modify WordPress functionality.
+- Prefix all custom hook names and callback functions to avoid naming collisions.
+- Document all custom hooks with clear descriptions and usage examples.
+- Remove actions and filters when no longer needed using remove_action() and remove_filter().
+- Use anonymous functions only for simple, non-reusable logic.
+*/

@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Component Organization
+
+- Place all reusable UI components in a `components/` subdirectory within the block.
+- Name components with PascalCase (e.g., `CartItem.js`).
+- Each component should be a separate file and export a single React component.
+- Write prop-types or TypeScript interfaces for all component props.
+- Document each component with a JSDoc comment.
+*/

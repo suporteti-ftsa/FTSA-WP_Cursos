@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: PHP Best Practices
+
+- Use strict typing by adding declare(strict_types=1); at the top of every PHP file.
+- Follow PSR-12 coding standards for formatting and structure.
+- Use namespaces and autoloading for all classes.
+- Prefer object-oriented programming (OOP) and SOLID principles.
+- Use type hints and return types for all functions and methods.
+- Avoid global variables; use dependency injection where possible.
+- Write clear, descriptive comments and PHPDoc blocks for all classes, methods, and functions.
+- Avoid code duplication by modularizing reusable logic.
+- Use Composer for dependency management.
+- Write unit and integration tests for all critical code paths.
+*/

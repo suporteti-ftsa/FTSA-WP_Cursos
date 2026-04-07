@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Editor and Frontend Style Separation
+
+- Place all frontend styles in `style.scss` and all editor-only styles in `editor.scss` within the block directory.
+- Import `editor.scss` only in `edit.js` or `index.js` for editor context.
+- Import `style.scss` in the block's entry point for both editor and frontend.
+- Scope all styles under the block's root class to avoid conflicts.
+- Do not use global selectors or override core/editor styles globally.
+*/

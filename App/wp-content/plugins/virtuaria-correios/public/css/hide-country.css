@@ -1,0 +1,8 @@
+.woocommerce-cart .wc-block-components-address-form__country,
+/* .woocommerce-cart .wc-block-components-address-form__city.is-active,
+.woocommerce-cart .wc-block-components-address-form__state, */
+p#calc_shipping_state_field,
+#calc_shipping_city_field,
+#calc_shipping_country_field {
+    display: none !important;
+}

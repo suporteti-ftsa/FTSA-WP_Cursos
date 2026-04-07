@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: User Roles and Capabilities
+
+- Use current_user_can() to check permissions before performing sensitive actions.
+- Register custom roles and capabilities as needed.
+- Never rely on user IDs for access control.
+- Remove custom roles/capabilities on plugin deactivation/uninstall.
+*/

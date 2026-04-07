@@ -1,0 +1,103 @@
+#diagnostics {
+    min-height: 270px;
+    max-width: 990px;
+    background-color: #FFF;
+    display: flex;
+    box-shadow: 0px 0 1px #ccc;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.page-description {
+    font-size: 18px;
+}
+.start-diagnostics {
+    display: inherit;
+    font-size: 18px;
+}
+.start-diagnostics .dashicons {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.loading-label {
+    line-height: 25px;
+}
+.checked-item {
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 20px;
+}
+.checked-item:last-child {
+    margin-bottom: 0;
+}
+#diagnostics.done {
+    padding: 20px;
+    display: block;
+    max-width: 940px;
+    align-content: baseline;
+}
+.checked-item .status-bar {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 15px;
+}
+.checked-item .title {
+    font-size: 18px;
+}
+#diagnostics .dashicons-yes-alt {
+    color: green;
+}
+#diagnostics .dashicons-dismiss {
+    color: red;
+}
+.checked-item .status {
+    margin-right: 10px;
+}
+.checked-item .desc {
+    max-height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: max-height .3s;
+    font-size: 14px;
+}
+.checked-item.open .desc {
+    max-height: 300px;
+    padding: 15px;
+}
+.checked-item.open .status-bar {
+    background-color: #eee;
+}
+.checked-item.open .dashicons-arrow-down-alt2 {
+    transform: rotate(180deg);
+}
+.checked-item .dashicons-arrow-down-alt2 {
+    transition: transform .3s;
+}
+.tested-itens {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.tested-itens .methods {
+    list-style: circle;
+    margin: 10px 0 0;
+    margin-left: 40px;
+}
+.tested-itens .methods .item {
+    margin: 0;
+    line-height: normal;
+    font-size: 14px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.tested-itens .methods .item > span {
+    color: #fff;
+    margin-left: 5px;
+}
+.tested-itens .methods .item > .error {
+    background-color: red;
+}
+.tested-itens .methods .item > .ok {
+    background-color: #06bb06;
+}

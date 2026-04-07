@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Custom Hooks and Utilities
+
+- Place all custom React hooks in a `hooks/` subdirectory within the block.
+- Name hooks with the `use-` prefix (e.g., `use-cart.js`).
+- Place all utility functions in a `utils.js` file within the block.
+- Write JSDoc comments for all hooks and utility functions.
+- Export only what is needed; avoid polluting the global namespace.
+*/

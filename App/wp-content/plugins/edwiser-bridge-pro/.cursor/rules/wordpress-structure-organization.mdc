@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+// File: .cursor/rules/wordpress-structure-organization.mdc
+/*
+MDC Rule: File and Code Organization
+
+- Organize code into logical directories (e.g., inc/, templates/, assets/).
+- Use lowercase and hyphens for file and directory names.
+- Group related functions and classes together.
+- Separate business logic from presentation (MVC or similar patterns).
+- Keep functions.php focused on theme-specific logic; use plugins for reusable features.
+*/

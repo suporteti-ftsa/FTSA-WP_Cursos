@@ -1,0 +1,199 @@
+# Translation of Plugins - Loco Translate - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Loco Translate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-18 11:18:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - Loco Translate - Stable (latest release)\n"
+
+#: tpl/admin/file/info-pot.php:22
+msgid "1 word"
+msgid_plural "%s words"
+msgstr[0] "1 palavra"
+msgstr[1] "%s palavras"
+
+#: src/admin/RootController.php:84
+msgid "Welcome to Loco Translate"
+msgstr "Bem-vindo ao Loco Translate"
+
+#. Author URI of the plugin
+msgid "https://localise.biz/wordpress/plugin"
+msgstr "https://localise.biz/wordpress/plugin"
+
+#: tpl/admin/init/init-po.php:55
+msgid "WordPress language"
+msgstr "Idioma do WordPress"
+
+#: tpl/admin/init/init-po.php:48
+msgid "Choose a language"
+msgstr "Escolha um idioma"
+
+#: tpl/admin/init/init-po.php:60
+msgid "No language selected"
+msgstr "Nenhum idioma seleccionado"
+
+#: tpl/admin/init/init-po.php:67
+msgid "Available languages"
+msgstr "Idiomas disponíveis"
+
+#: tpl/admin/init/init-po.php:61 src/admin/bundle/LocaleController.php:116
+#: src/admin/list/LocalesController.php:35
+msgid "Installed languages"
+msgstr "Idiomas instalados"
+
+#: tpl/admin/init/init-po.php:79
+msgid "Custom language"
+msgstr "Idioma personalizado"
+
+#: tpl/admin/init/init-po.php:93
+msgid "Choose a location"
+msgstr "Escolha uma localização"
+
+#: tpl/admin/help/tab-settings.php:9
+msgid "Full documentation"
+msgstr "Toda a documentação"
+
+#: tpl/admin/root.php:54 src/admin/bundle/LocaleController.php:147
+msgid "See all plugins"
+msgstr "Ver todos os plugins"
+
+#: tpl/admin/root.php:39 src/admin/bundle/LocaleController.php:142
+msgid "See all themes"
+msgstr "Ver todos os temas"
+
+#: tpl/admin/root.php:47
+msgid "Running plugins:"
+msgstr "Plugins em execução:"
+
+#: tpl/admin/root.php:35
+msgid "Active theme:"
+msgstr "Tema activo:"
+
+#: src/js/Strings.php:18
+msgid "Merged from %s"
+msgstr "Misturado a partir de %s"
+
+#: src/js/Strings.php:21
+msgid "Merged from source code"
+msgstr "Misturado a partir do código fonte"
+
+#: src/js/Strings.php:31
+msgid "Already up to date with %s"
+msgstr "Actualizado desde %s"
+
+#: src/js/Strings.php:34
+msgid "Already up to date with source code"
+msgstr "Já está actualizado a partir do código fonte"
+
+#. Translators: Summary of new strings after running in-editor Sync
+#: src/js/Strings.php:24 pub/js/editor.js:76
+msgid "1 new string added"
+msgid_plural "%s new strings added"
+msgstr[0] "1 novo termo adicionado"
+msgstr[1] "%s novos termos adicionados"
+
+#. Translators: Summary of existing strings that no longer exist after running
+#. in-editor Sync
+#: src/js/Strings.php:27 pub/js/editor.js:78
+msgid "1 obsolete string removed"
+msgid_plural "%s obsolete strings removed"
+msgstr[0] "1 um termo obsoleto removido"
+msgstr[1] "%s termos obsoletos removidos"
+
+#: src/js/Strings.php:37
+msgid "Your changes will be lost if you continue without saving"
+msgstr "As suas alterações serão perdidas se continuar sem guardar"
+
+#: tpl/admin/bundle/locale.php:14 tpl/admin/file/view-pot.php:11
+#: tpl/admin/file/edit-pot.php:12 tpl/admin/common/inc-po-header.php:8
+msgctxt "Modified time"
+msgid "Updated"
+msgstr "Actualizado"
+
+#: tpl/admin/config/settings.php:15 tpl/admin/config/settings.php:19
+msgid "Compiling MO files"
+msgstr "A compilar ficheiros MO"
+
+#: tpl/admin/config/settings.php:24
+msgid "Generate hash tables"
+msgstr "Gerar tabela hash"
+
+#: tpl/admin/config/settings.php:30
+msgid "Include Fuzzy strings"
+msgstr "Incluir termos imprecisos"
+
+#: tpl/admin/config/settings.php:73
+msgid "Number of backups to keep of each file:"
+msgstr "Número de cópias de segurança a manter de para cada ficheiro:"
+
+#: tpl/admin/config/prefs.php:29 tpl/admin/config/settings.php:170
+msgid "Save settings"
+msgstr "Guardar definições"
+
+#: tpl/admin/bundle/conf.php:65 tpl/admin/bundle/inc-po-table.php:42
+#: tpl/admin/file/info-pot.php:10 tpl/admin/file/view-pot.php:9
+#: tpl/admin/file/edit-pot.php:10
+msgid "Template file"
+msgstr "Ficheiro modelo"
+
+#. Translators: Placeholder text for text filter above editor
+#: src/admin/file/EditController.php:174
+msgid "Filter translations"
+msgstr "Filtrar traduções"
+
+#. Author of the plugin
+msgid "Tim Whitlock"
+msgstr "Tim Whitlock"
+
+#: src/error/WriteException.php:13
+msgid "Permission denied"
+msgstr "Permissão negada"
+
+#: src/admin/config/SettingsController.php:31
+#: src/admin/config/PrefsController.php:26
+msgid "Settings saved"
+msgstr "Definições guardadas"
+
+#: src/js/Strings.php:44 src/gettext/Metadata.php:203
+msgid "%s%% translated"
+msgstr "%s%% traduzido"
+
+#. Translators: Shows total string count at top of editor
+#: src/js/Strings.php:40 src/gettext/Metadata.php:193 pub/js/editor.js:430
+msgid "1 string"
+msgid_plural "%s strings"
+msgstr[0] "1 termo"
+msgstr[1] "%s termos"
+
+#: src/js/Strings.php:48 src/gettext/Metadata.php:205
+msgid "%s fuzzy"
+msgstr "%s impreciso(s)"
+
+#: src/js/Strings.php:52 src/gettext/Metadata.php:208
+msgid "%s untranslated"
+msgstr "%s não traduzido"
+
+#. translators: Page title for plugin home screen
+#: src/mvc/AdminRouter.php:39
+msgid "Loco, Translation Management"
+msgstr "Loco, Translation Management"
+
+#. Plugin Name of the plugin
+#: src/hooks/AdminHooks.php:65 src/mvc/AdminRouter.php:37
+msgid "Loco Translate"
+msgstr "Loco Translate"
+
+#: tpl/admin/errors/no-backups.php:24 tpl/admin/common/inc-fsconn.php:18
+#: tpl/admin/common/inc-fsconn.php:43 src/mvc/AdminRouter.php:67
+#: src/mvc/AdminRouter.php:72
+msgid "Settings"
+msgstr "Definições"
+
+#: src/js/Strings.php:64
+msgid "Unknown error"
+msgstr "Erro desconhecido"

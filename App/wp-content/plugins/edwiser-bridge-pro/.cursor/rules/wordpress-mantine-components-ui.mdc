@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Using Mantine Components and CSS Scoping in Gutenberg Blocks
+
+- Use Mantine components (e.g., Tabs, Input, Pagination) for complex UI elements in Gutenberg blocks to ensure accessibility and consistency.
+- Always wrap Mantine components within a block-specific root class (e.g., `.eb-cart`, `.eb-checkout`) to scope styles and avoid global conflicts.
+- All custom CSS for Mantine components must be placed inside the block's `style.scss` file and nested under the block's root class.
+- Do not override Mantine or global styles at the global level; always scope overrides to the block's class.
+- Import Mantine's base styles at the top of the block's entry file (e.g., `index.js`) only once per block.
+- When customizing Mantine component styles, use BEM or CSS modules under the block's root class.
+- Avoid using inline styles for theming Mantine components; prefer CSS or Mantine's theming API if needed.
+- Test all Mantine-based UI in both the editor and frontend to ensure style isolation and visual consistency.
+*/

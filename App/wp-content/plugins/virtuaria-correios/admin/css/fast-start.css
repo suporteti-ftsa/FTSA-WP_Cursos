@@ -1,0 +1,224 @@
+#fast-start {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    background-color: #fff;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+/* Content Box */
+#fast-start .inside main {
+    text-align: center;
+    width: 90%;
+    max-width: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 0;
+}
+
+#fast-start .title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#fast-start .description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    max-width: 800px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto 20px;
+    color: #64748b;
+}
+
+#fast-start .close-modal {
+    position: absolute;
+    top: 70px;
+    font-size: 60px;
+    cursor: pointer;
+    right: 40px;
+    width: auto;
+    height: auto;
+    transition: .3s linear;
+}
+
+#fast-start button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+#fast-start .btn-primary {
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+
+#fast-start .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#fast-start .close-modal:hover {
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+#fast-start .service {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+#fast-start .service-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#fast-start .service-info {
+    text-align: left;
+}
+
+#fast-start .service-methods {
+    font-size: 14px;
+    color: #647464;
+    margin-bottom: 0;
+}
+
+#fast-start .service-options {
+    align-items: center;
+    display: flex;
+}
+#fast-start .optional-service {
+    background-color: #e2e8f0;
+    padding: 3px;
+    border-radius: 15px;
+    width: 50px;
+}
+
+#fast-start .optional-service .switch {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    display: block;
+    float: left;
+}
+#fast-start .optional-service.checked {
+    background-color: #1d81d7;
+}
+#fast-start .optional-service.checked .switch {
+    float: right;
+}
+.virtuaria-logo {
+    background-image: url(../images/icon-256x256.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 80px;
+    height: 80px;
+}
+#fast-start .methods-services .description {
+    text-align: justify;
+    line-height: 21px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+#fast-start fieldset {
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#fast-start fieldset legend {
+    font-size: 18px;
+}
+
+button#fast-start-button {
+    background: linear-gradient(to right, #028e31, #939816);
+    position: fixed;
+    transition: background 2s linear infinite;
+    top: 50%;
+    right: -45px;
+    transform: rotate(270deg);
+    display: block !important;
+    font-size: 18px;
+}
+
+.form-table.entrega button#fast-start-button {
+    padding: 12px 20px;
+    background: #3a6ca1;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    position: static;
+    transform: initial;
+    min-height: initial;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: normal;
+    box-shadow: none;
+    border: none;
+}
+
+.entrega .actions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.entrega .actions h4 {
+    margin: 0;
+}
+
+.form-table.entrega button#fast-start-button::before {
+    content: "\f103";
+    font-family: 'dashicons';
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+
+.form-table.entrega button#fast-start-button:hover {
+    background: #0056b3;
+}
+
+.form-table:not(.entrega) button#fast-start-button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Cor branca com opacidade */
+    border-radius: inherit;
+    animation: piscar 1s infinite alternate;
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,26 @@
+# WordPress core (se aplicável)
+wp-admin/
+wp-includes/
+
+# Uploads (NÃO versionar)
+wp-content/uploads/
+
+# Cache / build
+cache/
+tmp/
+*.log
+
+# Dependências
+node_modules/
+vendor/
+
+# Arquivos grandes
+*.zip
+*.tar
+*.gz
+*.rar
+*.sql
+*.bak
+
+# Sistema
+.DS_Store

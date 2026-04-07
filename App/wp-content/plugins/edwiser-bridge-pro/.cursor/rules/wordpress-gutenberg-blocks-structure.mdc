@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Gutenberg Block Directory Structure
+
+- Place each block in its own directory under `blocks/src/`.
+- Required files for each block:
+  - `block.json`
+  - `index.js`
+  - `edit.js`
+  - `save.js`
+  - Main React component (e.g., `cart.js`)
+- Optional subdirectories:
+  - `components/` for reusable UI components
+  - `hooks/` for custom React hooks
+- Place all block-specific styles in `style.scss` and `editor.scss`.
+- Do not mix multiple blocks in a single directory.
+- Keep block logic, styles, and assets self-contained.
+*/

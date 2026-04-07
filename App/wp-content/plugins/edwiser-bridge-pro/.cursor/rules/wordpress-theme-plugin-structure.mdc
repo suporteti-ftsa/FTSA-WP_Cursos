@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Theme and Plugin Structure
+
+- Follow WordPress theme template hierarchy for all themes.
+- Use child themes for customizations to preserve update compatibility.
+- Never modify core, parent theme, or plugin files directly.
+- Organize theme-specific logic in functions.php; use plugins for reusable features.
+- Place templates in a /templates directory and assets in /assets.
+*/

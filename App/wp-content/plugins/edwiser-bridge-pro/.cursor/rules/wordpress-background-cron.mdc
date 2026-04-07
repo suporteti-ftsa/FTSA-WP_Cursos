@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Background Processing and WP_Cron
+
+- Use WP_Cron for scheduling background tasks and recurring events.
+- Ensure tasks are idempotent and handle failures gracefully.
+- Avoid long-running synchronous operations in page requests.
+- Document all custom cron events and intervals.
+*/

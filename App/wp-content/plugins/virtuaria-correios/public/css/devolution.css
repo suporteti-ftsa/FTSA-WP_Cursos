@@ -1,0 +1,47 @@
+.woocommerce-account .devolution-item-requested .dashicons,
+.woocommerce-account .devolution-item-request .dashicons {
+	font-size: 18px;
+	color: #94971b;
+	cursor: pointer;
+}
+.devolution-sended,
+.woocommerce-account .devolution-item-requested,
+.woocommerce-account .devolution-item-request.processing {
+    pointer-events: none;
+    opacity: .5;
+	color: darkgoldenrod
+}
+.woocommerce-account .devolution-item-requested img, 
+.woocommerce-account .devolution-item-request img {
+	max-width: 22px;
+	display: inline-block;
+	vertical-align: middle;
+	opacity: .7;
+}
+.woocommerce-account .devolution-item-requested,
+.woocommerce-account .devolution-item-request {
+    padding: 0;
+	margin-left: 5px;
+	background: none;
+	border: none;
+}
+.woocommerce-account .devolution-item-request.processing:after {
+	content: "\f110";
+	font-family: FontAwesome;
+	margin-left: 5px;
+	margin-right: 5px;
+	-webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+	animation:spin 4s linear infinite;
+	display: inline-block;
+}
+.devolution-item-request img {
+    /* filter: sepia() saturate(10000%) hue-rotate(30deg); */
+    filter: invert(39%) sepia(160%) saturate(525%) hue-rotate(27deg) brightness(190%);
+}
+.woocommerce-account .devolution-item-request:hover {
+    filter: brightness(1.2);
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

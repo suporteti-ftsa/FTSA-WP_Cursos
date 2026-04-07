@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Custom Post Types and Taxonomies
+
+- Register custom post types and taxonomies using register_post_type() and register_taxonomy().
+- Provide descriptive labels, capabilities, and rewrite rules.
+- Use hierarchical taxonomies where appropriate.
+- Document all custom post types and taxonomies.
+*/

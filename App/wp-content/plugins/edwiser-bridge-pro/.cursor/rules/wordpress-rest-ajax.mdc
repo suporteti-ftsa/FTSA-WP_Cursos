@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: REST API and AJAX
+
+- Use the WordPress REST API for new AJAX endpoints where possible.
+- Always verify nonces and user capabilities in REST/AJAX handlers.
+- Sanitize and validate all input data.
+- Return errors using wp_send_json_error() or WP_Error.
+- Never expose sensitive data in API responses.
+*/

@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+// File: .cursor/rules/wordpress-documentation.mdc
+/*
+MDC Rule: Documentation Standards
+
+- Use PHPDoc blocks for all classes, methods, and functions.
+- Write inline comments to explain complex logic.
+- Maintain a changelog for all releases.
+- Provide user-facing documentation for plugins/themes.
+*/

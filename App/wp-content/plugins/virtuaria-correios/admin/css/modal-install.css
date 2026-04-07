@@ -1,0 +1,236 @@
+/* Base Styles */
+body {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+.hidden {
+    display: none !important;
+}
+
+.welcome-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+/* Content Box */
+.welcome-modal-content {
+    text-align: center;
+    width: 90%;
+    max-width: 660px;
+}
+
+.welcome-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.welcome-message {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #64748b;
+}
+
+.welcome-actions {
+    /* display: flex; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.welcome-button {
+    padding: 15px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.import-button {
+    background: #007bff;
+}
+
+.import-button:hover {
+    background: #0056b3;
+}
+
+.skip-button {
+    background: #6c757d;
+}
+
+.skip-button:hover {
+    background: #5a6268;
+}
+
+.welcome-modal .close-modal {
+    position: absolute;
+    top: 70px;
+    font-size: 60px;
+    cursor: pointer;
+    right: 40px;
+    width: auto;
+    height: auto;
+    transition: .3s linear;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.checkbox-wrapper .checkbox-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox-wrapper.checked .checkbox-border {
+    border-color: #007bff;
+    background-color: #007bff;
+}
+
+.checkbox-wrapper.checked .checkbox-border .check-icon {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+}
+
+.checkbox-wrapper.checked .checkbox-border .check-icon::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin-left: 3px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.btn-secondary:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.jump-step {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.jump-step:hover {
+    text-decoration: underline;
+}
+
+.welcome-modal .close-modal:hover {
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.allowed-plugin {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.plugin-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.plugin-info {
+    text-align: left;
+}
+
+.plugin-methods {
+    font-size: 14px;
+    color: #647464;
+    margin-bottom: 0;
+}
+
+.import-options {
+    align-items: center;
+    display: flex;
+}
+
+.allowed-setting-import {
+    margin: 60px 0 40px;
+}
+
+.allow-import {
+    background-color: #e2e8f0;
+    padding: 3px;
+    border-radius: 15px;
+    width: 50px;
+}
+
+.allow-import .switch {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    display: block;
+    float: left;
+}
+.allow-import.checked {
+    background-color: #1d81d7;
+}
+.allow-import.checked .switch {
+    float: right;
+}
+#plugin-logo {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    max-width: 130px;
+}

@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Options and Settings API
+
+- Store configuration data using the Options API (get_option, update_option).
+- Use the Settings API for admin settings pages.
+- Sanitize and validate all options before saving.
+- Use the Customizer API for theme settings.
+*/

@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Error Handling for AJAX and REST
+
+- Use wp_send_json_error() or WP_Error for error responses in AJAX/REST endpoints.
+- Always return appropriate HTTP status codes.
+- Log errors for debugging but avoid exposing sensitive details in responses.
+- Use wp_die() for fatal errors in AJAX handlers.
+*/

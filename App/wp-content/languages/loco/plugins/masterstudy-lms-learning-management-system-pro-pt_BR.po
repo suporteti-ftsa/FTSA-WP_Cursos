@@ -1,0 +1,796 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MasterStudy LMS Learning Management System PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-04 18:32+0000\n"
+"PO-Revision-Date: 2020-11-22 18:32+0000\n"
+"Last-Translator: Christian\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+#: lms/classes/addons.php:17
+msgid "Udemy Course Importer"
+msgstr "Importador de cursos da Udemy"
+
+#: lms/classes/addons.php:22 stm-lms-templates/global/prerequisite.php:12
+msgid "Prerequisites"
+msgstr ""
+
+#: lms/classes/addons.php:26 addons/online_testing/main.php:18
+msgid "Online Testing"
+msgstr ""
+
+#: lms/classes/manage_course.php:31
+msgid "Your Course title here..."
+msgstr "O título do seu curso aqui ..."
+
+#: lms/classes/manage_course.php:32
+msgid "Course title"
+msgstr "Titulo do Curso"
+
+#: lms/classes/manage_course.php:33 lms/classes/manage_course.php:72
+msgid "Choose category"
+msgstr ""
+
+#: lms/classes/manage_course.php:270
+msgid "Course Saved, redirecting..."
+msgstr "Curso salvo, redirecionando..."
+
+#: lms/classes/manage_course.php:332
+msgid "Please log-in"
+msgstr "Por favor conecte-se"
+
+#: lms/classes/manage_course.php:342
+msgid "It is not your course."
+msgstr "Este curso não é seu."
+
+#: lms/actions/create_announcement.php:11
+msgid "Announcement has been sent to course students."
+msgstr "O anúncio foi enviado aos alunos do curso."
+
+#: lms/actions/create_announcement.php:16
+msgid "Please fill all fields"
+msgstr ""
+
+#: lms/actions/create_announcement.php:39
+msgid "Announcement from Instructor"
+msgstr "Anúncio do instrutor"
+
+#: addons/udemy/import.php:71
+msgid "Importing Curriculum"
+msgstr ""
+
+#: addons/udemy/import.php:152
+msgid "Get on Udemy"
+msgstr ""
+
+#: addons/udemy/import.php:265
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:83
+msgid "Preview"
+msgstr ""
+
+#: addons/udemy/main.php:49
+msgid "Credentials"
+msgstr ""
+
+#: addons/udemy/main.php:53
+msgid "Client ID"
+msgstr ""
+
+#: addons/udemy/main.php:58
+msgid "Client Secret"
+msgstr ""
+
+#: addons/udemy/main.php:63
+msgid "Udemy Rakuten Affiliate script"
+msgstr ""
+
+#: addons/udemy/main.php:70
+msgid "Search"
+msgstr ""
+
+#: addons/udemy/main.php:74
+msgid "Search Courses"
+msgstr "Pesquisar Cursos"
+
+#: addons/udemy/main.php:79
+msgid "Imported Courses"
+msgstr "Cursos Importados"
+
+#: addons/udemy/main.php:109
+msgid "STM LMS Udemy Settings"
+msgstr ""
+
+#: addons/udemy/main.php:114 addons/online_testing/main.php:40
+msgid "How to use"
+msgstr "Como usar"
+
+#: addons/udemy/main.php:151
+msgid "Please, enter Udemy API Credentials"
+msgstr ""
+
+#: addons/udemy/main.php:179
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#: addons/udemy/main.php:228
+msgid "Published"
+msgstr ""
+
+#: addons/online_testing/main.php:57
+msgid "Close"
+msgstr "Fechar"
+
+#: addons/prerequisite/main.php:22
+msgid "Course Prerequisites"
+msgstr "Pré-requisitos do Curso"
+
+#: addons/prerequisite/main.php:31
+#: stm-lms-templates/manage_course/parts/tabs.php:7
+#: stm-lms-templates/course/udemy/parts/tabs.php:7
+#: stm-lms-templates/course/classic/parts/tabs.php:7
+#: stm-lms-templates/manage_course/forms/js/wizard.php:45
+#: stm-lms-templates/manage_course/forms/js/wizard.php:53
+#: stm-lms-templates/manage_course/forms/js/wizard.php:61
+msgid "Curriculum"
+msgstr ""
+
+#: addons/prerequisite/main.php:36
+msgid "Prerequisite Courses"
+msgstr "Cursos com pré-requisito"
+
+#: addons/prerequisite/main.php:40
+msgid "Prerequisite Courses Passing Percent (%)"
+msgstr "Porcentagem de aprovação nos cursos de pré-requisito (%)"
+
+#: wizard/templates/main.php:5
+msgid "Masterstudy LMS Pro Addon requires MasterStudy LMS"
+msgstr "O Masterstudy LMS Pro Addon requer o MasterStudy LMS"
+
+#: wizard/templates/main.php:15 wizard/templates/notice.php:8
+msgid "Install"
+msgstr "Instalar"
+
+#: wizard/templates/notice.php:3
+msgid ""
+"Please install MasterStudy LMS – Learning Management System  from <a "
+"href=\"https://wordpress.org/plugins/masterstudy-lms-learning-management-"
+"system/\">WordPress.org</a>"
+msgstr ""
+
+#: stm-lms-templates/modals/prerequisite.php:6
+msgid "Prerequisite courses"
+msgstr "Cursos de pré-requisito"
+
+#: stm-lms-templates/modals/prerequisite.php:7
+msgid ""
+"A prerequisite is a specific course  that you must complete before you can "
+"take another course at the next grade level."
+msgstr ""
+
+#: stm-lms-templates/manage_course/single.php:63
+msgid "Publish Course"
+msgstr "Curso Publicado"
+
+#: stm-lms-templates/manage_course/single.php:64
+msgid "Update Course"
+msgstr "Atualizar curso"
+
+#: stm-lms-templates/global/subscription.php:7
+#: stm-lms-templates/global/subscription.php:16
+msgid "- Or -"
+msgstr ""
+
+#: stm-lms-templates/global/subscription.php:13
+#: stm-lms-templates/global/subscription.php:19
+#: stm-lms-templates/global/buy-button/mixed.php:115
+#: stm-lms-templates/global/buy-button/mixed.php:120
+msgid "Enroll with Membership"
+msgstr ""
+
+#: stm-lms-templates/global/buy-button-start.php:14
+#: stm-lms-templates/global/buy-button/mixed.php:29
+msgid "Enroll course"
+msgstr "Inscreva-se no curso"
+
+#: stm-lms-templates/global/buy-button-start.php:22
+#: stm-lms-templates/global/buy-button/mixed.php:37
+msgid "Start course"
+msgstr "Iniciar curso"
+
+#: stm-lms-templates/global/buy-button-buy.php:39
+#: stm-lms-templates/global/buy-button/mixed.php:80
+msgid "Get now"
+msgstr "Obtenha agora"
+
+#: stm-lms-templates/global/prerequisite.php:58
+msgid "Free"
+msgstr "Grátis"
+
+#: stm-lms-templates/global/prerequisite.php:70
+#: stm-lms-templates/manage_course/parts/info.php:10
+#: stm-lms-templates/course/udemy/parts/info.php:14
+msgid "Enrolled"
+msgstr ""
+
+#: stm-lms-templates/global/prerequisite.php:75
+msgid "Login"
+msgstr "Conecte-se"
+
+#: stm-lms-templates/global/prerequisite.php:79
+msgid "What is Prerequisite courses"
+msgstr "O que é cursos de pré-requisito"
+
+#: stm-lms-templates/global/affiliate-button.php:42
+#, php-format
+msgid "%s%% off"
+msgstr ""
+
+#: stm-lms-templates/course/udemy/sidebar.php:20
+msgid "30-Day Money-Back Guarantee"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/info.php:11
+msgid "0 students"
+msgstr "0 Alunos"
+
+#: stm-lms-templates/manage_course/parts/info.php:19
+#: stm-lms-templates/course/udemy/parts/info.php:21
+msgid "Duration"
+msgstr "Duração"
+
+#: stm-lms-templates/manage_course/parts/info.php:29
+#: stm-lms-templates/course/udemy/parts/info.php:30
+msgid "Lectures"
+msgstr "Leituras"
+
+#: stm-lms-templates/manage_course/parts/info.php:38
+#: stm-lms-templates/course/udemy/parts/info.php:38
+#: stm-lms-templates/manage_course/forms/html/lesson.php:33
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:29
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:55
+msgid "Video"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/info.php:49
+#: stm-lms-templates/course/udemy/parts/info.php:46
+msgid "Beginner"
+msgstr "Principiante"
+
+#: stm-lms-templates/manage_course/parts/info.php:50
+#: stm-lms-templates/course/udemy/parts/info.php:47
+msgid "Intermediate"
+msgstr "Intermediário"
+
+#: stm-lms-templates/manage_course/parts/info.php:51
+#: stm-lms-templates/course/udemy/parts/info.php:48
+msgid "Advanced"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/info.php:56
+#: stm-lms-templates/course/udemy/parts/info.php:50
+msgid "Level"
+msgstr "Nível"
+
+#: stm-lms-templates/manage_course/parts/tabs.php:6
+#: stm-lms-templates/course/udemy/parts/tabs.php:6
+#: stm-lms-templates/course/classic/parts/tabs.php:6
+msgid "Description"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs.php:8
+#: stm-lms-templates/course/udemy/parts/tabs.php:8
+#: stm-lms-templates/course/classic/parts/tabs.php:8
+#: stm-lms-templates/manage_course/forms/js/wizard.php:69
+#: stm-lms-templates/manage_course/parts/tabs/faq.php:17
+msgid "FAQ"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs.php:9
+#: stm-lms-templates/course/classic/parts/tabs.php:9
+#: stm-lms-templates/manage_course/forms/js/wizard.php:77
+msgid "Announcement"
+msgstr "Anúncio"
+
+#: stm-lms-templates/manage_course/global/wish-list.php:14
+#: stm-lms-templates/manage_course/global/wish-list.php:19
+msgid "Add to Wishlist"
+msgstr ""
+
+#: stm-lms-templates/manage_course/global/wish-list.php:16
+msgid "Wishlisted"
+msgstr ""
+
+#: stm-lms-templates/global/buy-button/mixed.php:101
+msgid "One Time Payment"
+msgstr ""
+
+#: stm-lms-templates/course/udemy/parts/info.php:15
+#, php-format
+msgid "%s student"
+msgid_plural "%s students"
+msgstr[0] "%s Aluno"
+msgstr[1] "%s Alunos"
+
+#: stm-lms-templates/course/udemy/parts/tabs.php:9
+#: stm-lms-templates/course/classic/parts/tabs.php:10
+msgid "Reviews"
+msgstr "Revisões"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:17
+msgid "Includes"
+msgstr "Inclui"
+
+#: stm-lms-templates/course/udemy/parts/includes.php:22
+#, php-format
+msgid "%s hours on-demand video"
+msgstr ""
+
+#: stm-lms-templates/course/udemy/parts/includes.php:30
+#, php-format
+msgid "%s article"
+msgid_plural "%s articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: stm-lms-templates/course/udemy/parts/includes.php:36
+msgid "Full lifetime access"
+msgstr ""
+
+#: stm-lms-templates/course/udemy/parts/includes.php:41
+msgid "Access on mobile and TV"
+msgstr ""
+
+#: stm-lms-templates/course/udemy/parts/includes.php:47
+msgid "Certificate of Completion"
+msgstr "Certificado de conclusão"
+
+#: stm-lms-templates/courses/udemy/parts/course_info.php:78
+msgid "Preview this course"
+msgstr "Visualizar este curso"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:14
+#: stm-lms-templates/account/private/parts/create_announcement_btn.php:10
+msgid "Create Announcement"
+msgstr "Criar Anúncio"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:21
+msgid "Choose Course"
+msgstr "Escolha o curso"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:33
+msgid "Message for Course Students"
+msgstr "Mensagem para os Alunos do Curso"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:47
+msgid "Create"
+msgstr "Criar"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:13
+msgid "Course"
+msgstr "Curso"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:16
+msgid "Certificate"
+msgstr "Certificado"
+
+#: stm-lms-templates/account/private/parts/certificate-list.php:29
+msgid "Download"
+msgstr ""
+
+#: stm-lms-templates/account/private/parts/my_certificates_btn.php:10
+msgid "My certificates"
+msgstr "Meus Certificados"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:15
+msgid "Title"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:16
+msgid "Adding a course title"
+msgstr "Adicionando um título de curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:17
+msgid "Click here to add a title"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:22
+msgid "Category"
+msgstr "Categoria"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:23
+msgid "Adding course category"
+msgstr "Adicionando categoria de curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:24
+msgid "Click here to add a category"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:29
+msgid "Image"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:30
+msgid "Adding course image"
+msgstr "Adicionando imagem do curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:31
+msgid "Click here to add an image"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:37
+#: stm-lms-templates/manage_course/forms/html/lesson.php:11
+#: stm-lms-templates/manage_course/forms/html/quiz.php:10
+msgid "Content"
+msgstr "Conteúdo"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:38
+msgid "Adding course description"
+msgstr "Adicionando descrição do curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:39
+msgid "Click here to add course description"
+msgstr "Clique aqui para adicionar a descrição do curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:46
+msgid "Add a course Curriculum"
+msgstr "Adicionar um currículo"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:47
+msgid ""
+"Click here to add curriculum Section and hit enter after adding Section name"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:54
+msgid "Add a course Lesson"
+msgstr "Adicionar um curso Lição"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:55
+msgid ""
+"Click here to add curriculum Lesson and hit enter after adding Lesson name"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:62
+msgid "Add a course Quiz"
+msgstr "Adicionar um questionário de curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:63
+msgid "Click here to add curriculum Quiz and hit enter after adding Quiz name"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:70
+msgid "Add a course FAQ"
+msgstr "Adicionar FAQ (Perguntas frequentes) do curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:71
+msgid ""
+"FAQ is an accordion of FAQ items. Add FAQ title, then hit enter. After "
+"adding FAQ item, you can add description for it. Add as many FAQ items as "
+"you need."
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:78
+msgid "Add a course announcement"
+msgstr "Adicionar um anúncio de curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:79
+msgid "Click to enter Announcement for students."
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:85
+msgid "Pricing"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:86
+msgid "Adding course price"
+msgstr "Adicionar um valor ao curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:87
+msgid "Click here to add course prices"
+msgstr "Clique aqui para adicionar preços dos cursos"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:92
+#: stm-lms-templates/manage_course/forms/js/wizard.php:99
+#: stm-lms-templates/manage_course/forms/js/wizard.php:106
+msgid "Info"
+msgstr "Informações"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:93
+msgid "Adding course duration"
+msgstr "Adicionar duração do curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:94
+msgid "Click here to add course duration"
+msgstr "Clique aqui para adicionar a duração do curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:100
+msgid "Adding course video duration"
+msgstr "Adicionando duração do vídeo do curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:101
+msgid "Click here to add course video duration"
+msgstr "Clique aqui para adicionar a duração do vídeo do curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:107
+msgid "Adding course level"
+msgstr "Adicionando nível de curso"
+
+#: stm-lms-templates/manage_course/forms/js/wizard.php:108
+msgid "Click here to add course level"
+msgstr "Clique aqui para adicionar o nível do curso"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:16
+msgid "Lesson Settings"
+msgstr "Configurações da lição"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:30
+msgid "Lesson type"
+msgstr "Tipo de lição"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:32
+msgid "Text"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:34
+msgid "Slide"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:41
+msgid "Lesson duration"
+msgstr "Duração da lição"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:49
+msgid "Lesson preview"
+msgstr "Visualização da lição"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:60
+msgid "Lesson Front-End description"
+msgstr "Descrição da lição"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:70
+#: stm-lms-templates/manage_course/forms/html/quiz.php:96
+msgid "Save Changes"
+msgstr "Salve suas alterações"
+
+#: stm-lms-templates/manage_course/forms/html/lesson.php:71
+#: stm-lms-templates/manage_course/forms/html/quiz.php:99
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: stm-lms-templates/manage_course/forms/html/price.php:5
+#, php-format
+msgid "Add Price* (%s)"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/price.php:6
+#, php-format
+msgid "Add Sale Price (%s)"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/price.php:16
+msgid "Enroll now"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/price.php:19
+msgid "Add Prices"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/image.php:6
+msgid "Upload course Image"
+msgstr "Carregar imagem do curso"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:15
+msgid "Quiz Questions"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:20
+msgid "Quiz Settings"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:43
+msgid "Quiz description"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:50
+msgid "Quiz duration"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:53
+msgid "Enter quiz duration"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:55
+msgid "Minutes"
+msgstr "Minutos"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:56
+msgid "Hours"
+msgstr "Horas"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:57
+msgid "Days"
+msgstr "Dias"
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:65
+msgid "Show correct answer"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:77
+msgid "Passing grade (%)"
+msgstr ""
+
+#: stm-lms-templates/manage_course/forms/html/quiz.php:84
+msgid "Points total cut after re-take (%)"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:34
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:8
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:31
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:13
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:34
+#: stm-lms-templates/course/classic/parts/panel_info/rate.php:15
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:37
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:11
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:34
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:16
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:37
+msgid "out of 5"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:41
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:38
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:41
+#, php-format
+msgid "%s Ratings"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:48
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:45
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:48
+msgid "Detailed Rating"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:53
+#: stm-lms-templates/course/udemy/parts/tabs/reviews.php:50
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:53
+#, php-format
+msgid "Stars %s"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:96
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:96
+msgid "Show more"
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/tabs/reviews.php:101
+#: stm-lms-templates/course/classic/parts/tabs/reviews.php:101
+msgid "Be the first to add a review."
+msgstr ""
+
+#: stm-lms-templates/manage_course/parts/panel_info/teacher.php:13
+msgid "Teacher"
+msgstr "Instrutor"
+
+#: stm-lms-templates/manage_course/parts/panel_info/rate.php:18
+#: stm-lms-templates/course/classic/parts/panel_info/rate.php:23
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s rever"
+msgstr[1] "%s revisões"
+
+#: stm-lms-templates/manage_course/parts/panel_info/categories.php:8
+msgid "Category:"
+msgstr "Categoria:"
+
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:22
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:34
+msgid "Quiz"
+msgstr ""
+
+#: stm-lms-templates/course/udemy/parts/tabs/curriculum.php:25
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:28
+msgid "Text Lesson"
+msgstr ""
+
+#: stm-lms-templates/course/udemy/parts/panel_info/teacher.php:16
+msgid "Instructor:"
+msgstr "Instrutor:"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/languages.php:18
+msgid "More"
+msgstr "Mais"
+
+#: stm-lms-templates/course/udemy/parts/panel_info/rate.php:23
+#, php-format
+msgid "%s review on Udemy"
+msgid_plural "%s reviews on Udemy"
+msgstr[0] ""
+msgstr[1] ""
+
+#: stm-lms-templates/course/udemy/parts/panel_info/enrolled.php:14
+#, php-format
+msgid "%s student enrolled"
+msgid_plural "%s students enrolled"
+msgstr[0] ""
+msgstr[1] ""
+
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:36
+#, php-format
+msgid "%s question"
+msgid_plural "%s questions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: stm-lms-templates/course/classic/parts/tabs/curriculum.php:50
+msgid "Slides"
+msgstr ""
+
+#: stm-lms-templates/course/classic/parts/tabs/announcement.php:9
+msgid "No announcements at this moment."
+msgstr "Não há anúncios neste momento."
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:15
+msgid "Courses"
+msgstr "Cursos"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:18
+msgid "Add New course"
+msgstr "Adicionar novo curso"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:37
+msgid "Edit"
+msgstr "Editar"
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:38
+msgid "View"
+msgstr ""
+
+#: stm-lms-templates/account/private/classic/instructor_parts/courses.php:96
+msgid "Load more"
+msgstr "Carregue mais"
+
+#. Name of the plugin
+msgid "MasterStudy LMS Learning Management System PRO"
+msgstr "Sistema de Gerenciamento de Aprendizagem MasterStudy LMS PRO"
+
+#. Description of the plugin
+msgid ""
+"Create brilliant lessons with videos, graphs, images, slides and any other "
+"attachments thanks to flexible and user-friendly lesson management tool "
+"powered by WYSIWYG editor."
+msgstr ""
+"Crie lições brilhantes com vídeos, gráficos, imagens, slides e outros anexos,"
+" graças à ferramenta de gerenciamento de lições flexível e fácil de usar, "
+"fornecida pelo editor WYSIWYG."
+
+#. URI of the plugin
+msgid "http://masterstudy.stylemixthemes.com/lms-plugin/"
+msgstr ""
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr ""
+
+msgid "Take this course"
+msgstr "Comprar este curso"
+
+msgid "All courses"
+msgstr "Todos os Cursos"
+
+msgid "Search the courses"
+msgstr "Pesquisar curso"

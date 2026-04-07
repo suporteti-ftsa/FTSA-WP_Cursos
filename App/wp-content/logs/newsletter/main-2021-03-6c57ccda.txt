@@ -1,0 +1,30 @@
+15-03-2021 14:45:51 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:45:51 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:45:51 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:45:51 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:16 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:16 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:16 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:16 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:26 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:26 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:26 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:26 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:31 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:31 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:31 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:31 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:46 - ERROR - v: 7.0.7 - m: 144,8 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:46 - ERROR - v: 7.0.7 - m: 144,8 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:46 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:46 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:50 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:50 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:50 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:46:50 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:47:07 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - Não foi possível calcular o tamanho da imagem redimensionada (error_getting_dimensions) - /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:47:07 - ERROR - v: 7.0.7 - m: 144,9 MB, u: 5 - File: /home/redeftsa/public_html/wp-content/uploads/2021/03/post-pirangine.png
+15-03-2021 14:48:10 - INFO  - v: 7.0.7 - m: 137,3 MB, u: 5 - Newsletter::send> Start run for email 1
+15-03-2021 14:48:10 - INFO  - v: 7.0.7 - m: 137,3 MB, u: 5 - Newsletter::send> Subscribers supplied
+15-03-2021 14:48:10 - INFO  - v: 7.0.7 - m: 138,0 MB, u: 5 - Newsletter::send> End run for email 1
+16-03-2021 16:17:08 - INFO  - v: 7.0.7 - m: 136,9 MB, u: 5 - Dedicated page already exists

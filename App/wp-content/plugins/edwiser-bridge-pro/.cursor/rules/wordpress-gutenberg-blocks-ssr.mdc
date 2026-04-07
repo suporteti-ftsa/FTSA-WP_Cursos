@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Server-Side Rendering for Gutenberg Blocks
+
+- If a block requires dynamic or user-specific content, implement server-side rendering using a `render.php` file in the block directory.
+- Register the block with the `render_callback` property in `block.json` or via PHP.
+- Ensure all server-rendered output is escaped using WordPress escaping functions.
+- Keep PHP rendering logic modular and reusable.
+- Document the SSR logic and expected attributes in the block's README.
+*/

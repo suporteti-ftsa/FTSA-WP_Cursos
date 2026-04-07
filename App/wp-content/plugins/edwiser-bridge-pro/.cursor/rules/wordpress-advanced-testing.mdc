@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+// File: .cursor/rules/wordpress-advanced-testing.mdc
+/*
+MDC Rule: Advanced Testing Practices
+
+- Use WP_Mock or similar tools to mock WordPress functions in unit tests.
+- Write integration tests for plugin/theme interactions.
+- Test with multiple WordPress/PHP versions for compatibility.
+- Automate tests with GitHub Actions or similar CI tools.
+*/

@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Deprecation and Backward Compatibility
+
+- Mark deprecated functions with _deprecated_function() and provide alternatives.
+- Maintain backward compatibility for public APIs where possible.
+- Document all breaking changes in changelogs and documentation.
+*/

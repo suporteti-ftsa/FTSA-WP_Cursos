@@ -1,0 +1,153 @@
+<div class="slider-revolution-update-list">			
+	<h3 class="version-number">Version 7.0.7.1 (30th March 2026)</h3>
+	<div class="bugfix"><strong style="font-weight:700">Bug Fixes</strong></div>
+	<ul>			
+		<li>Translation Bug breaks Editor and Preview</li>
+	</ul>
+	<h3 class="version-number">Version 7.0.7 (30th March 2026)</h3>
+	<div class="bugfix"><strong style="font-weight:700">Bug Fixes</strong></div>
+	<ul>			
+		<li>Resolved a migration issue affecting very old modules with missing timeline data</li>
+		<li>Fixed an issue that could break the Elementor builder when using transparent background colors</li>
+		<li>Improved REST API reliability for post-based modules in certain edge cases</li>
+		<li>Ensured correct fetching of the current post via REST API</li>
+		<li>Eliminated slide overlay flickering during transitions</li>		
+		<li>Fixed HoverMorph and Filmstrip addons not updating correctly after slide changes in the backend</li>				
+		<li>Resolved an issue where custom fonts were not displaying properly in the backend and frontend</li>		
+		<li>Fixed the "Edit Module" functionality in the WPBakery widget</li>
+		<li>Improved bulk color handling to correctly remember the last selected color before applying changes</li>		
+		<li>Fixed background animations from transparent to RGBA in specific cases (e.g., SVG layers)</li>
+		<li>Restored missing video sources (YouTube/Vimeo) and poster images when using stream content</li>		
+		<li>Resolved a MetaBox error on builder pages</li>
+		<li>Fixed display issues with the Slider Revolution logo in Elementor dark mode</li>
+		<li>Preserved full-width and full-height settings when adding modules via the add_revslider function</li>
+		<li>Corrected CSS loading order issues that caused layout misalignment in preview mode</li>		
+	</ul>	
+
+	<div class="newfeature"><strong style="font-weight:700">New Features</strong></div>	
+	<ul>
+		<li>Added full support for Divi 5 Builder</li>
+		<li>Introduced keyboard accessibility: slides can now be changed using the "Enter" key when navigation arrows are focused</li>
+		<li>Admin and navigation thumbnails are now automatically optimized and saved as WebP images for better performance</li>
+		<li>Improved thumbnail navigation settings to reliably retain selected sizes after saving</li>
+	</ul>
+
+	<div class="change"><strong style="font-weight:700">Changes</strong></div>
+	<ul>
+		<li>Enhanced backend translations for multiple languages (DE, ES, FR, IT, JA, PT, RU)</li>
+		<li>Extended migration support to unlicensed modules that do not use addons or premium features</li>
+	</ul>
+	<h3 class="version-number">Version 7.0.6 (20th March 2026)</h3>
+	<div class="bugfix"><strong style="font-weight:700">Bug Fixes</strong></div>
+	<ul>			
+		<li>Removed the Dark Theme CSS class name from not our own admin pages</li>	
+		<li>Compatibility fix for Visual Composer using deprecated RevSlider class</li>
+		<li>Opening the editor with a wrong module id or slide id will redirect now to the dashboard</li>
+		<li>Link action pointing on the "/" path was broken after update to SR7. Now it will redirect to the root domain</li>
+		<li>AI Image Size Dimension slider was showing the wrong values</li>
+		<li>Fixed an issue where modals triggered by URL hash changes only worked on page reload and not during runtime</li>
+		<li>Fields to set HTML Data, Id, Class, DeepLink and Attributes for slides were not editable</li>
+		<li>Fixed not working vertical touch swipe navigation in Android devices</li>
+		<li>The slider failed to load on the frontend when the Borlabs Cookie plugin was active</li>
+	</ul>
+	<h3 class="version-number">Version 7.0.5.1 (17th March 2026)</h3>
+	<div class="bugfix"><strong style="font-weight:700">Bug Fixes</strong></div>
+	<ul>
+		<li>Improved compatibility with hard-cached backend environments where third-party or server-side caching may cause mixed loading of SR6 and SR7 editor assets.</li>
+		<li>Fixed compatibility error with Divi 5 builder.</li>
+	</ul>
+	<h3 class="version-number">Version 7.0.5 (16th March 2026)</h3>
+	<div class="bugfix"><strong style="font-weight:700">Bug Fixes</strong></div>
+	<ul>
+		<li>Supporting Advanced Transitions (7.0.2) with the SunBeam (7.0.2) and Distortion Addons (7.0.2) now</li>
+		<li>Hover animation stucked. The Timeline is now reversed to Idle if further animation started on the layer after hovering it</li>
+		<li>Fixed a compatibility issue caused by third-party scripts overriding the native String.replaceAll() function</li>
+		<li>Fixed problem with module selection not changing Elementor builder to dirty state.</li>
+		<li>New Motion Path function did not render correctly in Frontend</li>
+		<li>Added warning when trying to access slider functions from builders without permissions</li>
+		<li>Fixed NULL on initial Addons loading error in updating process</li>
+		<li>Fixed upgrading from v5 to v7 issue where the upgrade process stopped</li>
+		<li>Added backwards compatibility file for themes that still use pre 6.0 classes and functions</li>
+		<li>Fixed Module Background Repeat settings</li>
+		<li>Hovering can have now different border color, style, size and radius</li>
+		<li>Default Values in Global Settings showing "on" even the value was set to "off"</li>
+	</ul>
+	<h3 class="version-number">Version 7.0.4 (12th March 2026)</h3>
+	<div class="bugfix"><strong style="font-weight:700">Bug Fixes</strong></div>
+	<ul>
+		<li>Fixed deinstallation of plugin not working as intended</li>
+		<li>Improved compatibility with the Elementor Builder</li>
+	</ul>
+	<h3 class="version-number">Version 7.0.3 (11th March 2026)</h3>
+	<div class="bugfix"><strong style="font-weight:700">Compatibility Improvements.</strong></div>
+	<ul>
+		<li>Improved compatibility with the Divi Builder</li>
+		<li>Improved compatibility with the Elementor Builder</li>
+		<li>Improved compatibility with the Avada Theme</li>
+	</ul>
+	<h3 class="version-number">Version 7.0.2 (10th March 2026)</h3>
+	<div class="bugfix"><strong style="font-weight:700">Bug Fixes and Performance Improvements.</strong></div>
+	<ul>
+		<li>Fixed an issue where importing layers from other modules was not possible</li>
+		<li>Optimized template library requests and preview video loading</li>
+		<li>Improved compatibility with WPBakery</li>
+		<li>Improved initial module selection when used inside Elementor</li>
+		<li>Added Avada theme backwards compatibility</li>
+	</ul>
+	<h3 class="version-number">Version 7.0.0 (9th March 2026)</h3>
+	<div class="newfeature"><strong style="font-weight:700">Slider Revolution 7.0 – New Era Module Editor.</strong></div>
+	<ul>
+		<li>Completely rebuilt editor designed for a faster and clearer workflow</li>
+		<li>Cleaner workspace with improved usability and better organization</li>
+		<li>More accurate editing experience thanks to the new shared rendering system</li>
+		<li>Created to make building complex modules easier and more intuitive</li>
+	</ul>
+
+	<div class="newfeature"><strong style="font-weight:700">Integrated AI Features Built Into the Editor.</strong></div>
+	<ul>
+		<li>AI image generation directly inside Slider Revolution 7</li>
+		<li>AI text generation built into the editor workflow</li>
+		<li>AI background removal for images generated in SR7</li>
+		<li>Creative AI tools available without leaving the editor</li>
+	</ul>
+
+	<div class="newfeature"><strong style="font-weight:700">Powered by the SR7 "Velocity" Engine.</strong></div>
+	<ul>
+		<li>Editor backend and live frontend now use the same rendering engine</li>
+		<li>Previews match the final published output more accurately</li>
+		<li>Modernized foundation for the new SR7 editing experience</li>
+		<li>Improved consistency across editing and live display</li>
+	</ul>
+
+	<div class="newfeature"><strong style="font-weight:700">Dedicated Editing Modes for Faster Workflows.</strong></div>
+	<ul>
+		<li>New Design Mode for styling and layout creation</li>
+		<li>New Animation Mode for timing, motion, and effects</li>
+		<li>New Action Mode for interactions and slide behavior</li>
+		<li>Each mode focuses the interface on the task at hand</li>
+	</ul>
+
+	<div class="newfeature"><strong style="font-weight:700">Redesigned Interface and Workspace.</strong></div>
+	<ul>
+		<li>Top bar redesigned for quicker access to preview and device controls</li>
+		<li>Settings moved into a dedicated left sidebar</li>
+		<li>Right sidebar now focuses on design, animation, and actions</li>
+		<li>Slides and layers are managed through clearer dedicated panels</li>
+	</ul>
+
+	<div class="newfeature"><strong style="font-weight:700">New Stage and Animation Workflow.</strong></div>
+	<ul>
+		<li>The old Canvas was replaced by the new Stage</li>
+		<li>Device-specific bounds make responsive editing clearer</li>
+		<li>Timeline now focuses purely on animation work</li>
+		<li>Animations are organized into scenes for better control</li>
+	</ul>
+
+	<div class="newfeature"><strong style="font-weight:700">Better Visual Design and Layer Control.</strong></div>
+	<ul>
+		<li>Improved layer workflow for adding, organizing, and editing content</li>
+		<li>Design tools now give faster access to styling and visual effects</li>
+		<li>New features include shape layers and richer shadow controls</li>
+		<li>Overall module creation is more structured and efficient</li>
+	</ul>	
+</div>

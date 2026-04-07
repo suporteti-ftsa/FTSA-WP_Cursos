@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Creating Gutenberg Blocks with React
+
+- Each block must have its own directory under `blocks/src/`, containing:
+  - `block.json` for block metadata and registration.
+  - `index.js` for block registration using `registerBlockType`.
+  - `edit.js` and `save.js` for editor and frontend rendering logic.
+  - A main React component (e.g., `cart.js`) for block UI, imported in `edit.js`.
+  - Supporting components in a `components/` subdirectory.
+  - Custom hooks in a `hooks/` subdirectory.
+  - Utility functions in a `utils.js` file.
+  - Styles in `style.scss` (frontend) and `editor.scss` (editor).
+
+- Use ES6+ and React functional components with hooks.
+- Use `@wordpress/i18n` for all user-facing text (with translation functions like `__`, `_n`, `sprintf`).
+- Use `@wordpress/block-editor`'s `useBlockProps` for block wrappers.
+- Register blocks using metadata from `block.json` (do not hardcode block names).
+- Use `block.json` to define scripts, styles, category, icon, supports, and textdomain.
+- Keep logic modular: separate UI, state, and data-fetching into components and hooks.
+- Use prop-types or TypeScript for component props (if project supports).
+- Use CSS modules or BEM naming for styles to avoid conflicts.
+- Use WordPress REST API or AJAX for server communication; always validate and sanitize data.
+- Use skeleton loaders or spinners for async data.
+- Write unit tests for React components and hooks.
+- Document each block's purpose and usage in a README within the block's directory.
+*/

@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+// File: .cursor/rules/wordpress-script-style-management.mdc
+/*
+MDC Rule: Script and Style Management
+
+- Enqueue scripts and styles using wp_enqueue_script() and wp_enqueue_style().
+- Specify dependencies and version numbers for all enqueued assets.
+- Use wp_localize_script() to pass data to JavaScript.
+

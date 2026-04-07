@@ -1,0 +1,37 @@
+version: 0.2
+# phases:
+#   install:
+#     runtime-versions:
+#       docker: 19
+#   #     nodejs: 12
+# version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws --version
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 767623923282.dkr.ecr.us-east-2.amazonaws.com
+      - REPOSITORY_URI=767623923282.dkr.ecr.us-east-2.amazonaws.com/cursos
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - IMAGE_TAG=${COMMIT_HASH:=latest}
+      - export dockerhub_username=ftsalda
+      - export dockerhub_password='&we^^F*r%TN43P%5EJU5mB6PP$8q'
+      - docker login -u $dockerhub_username -p $dockerhub_password      
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...
+      - docker login -u $dockerhub_username -p $dockerhub_password
+      - docker build -t $REPOSITORY_URI:latest .
+      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker images...
+      - docker push $REPOSITORY_URI:latest
+      - echo Writing image definitions file...
+      - printf '[{"name":"cursos","imageUri":"%s"}]' $REPOSITORY_URI:latest > imagedefinitions.json
+      - cat imagedefinitions.json
+artifacts:
+    files: imagedefinitions.json

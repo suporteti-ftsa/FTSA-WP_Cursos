@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Error Handling and Logging
+
+- Use try-catch blocks for controlled exception handling in PHP 7+.
+- Log errors using WordPress's built-in logging (WP_DEBUG_LOG).
+- Avoid displaying sensitive error details to users; show generic messages instead.
+- Implement custom error handlers for plugin/theme-specific errors.
+- Regularly review and address logged errors and warnings.
+*/

@@ -1,0 +1,62 @@
+#order_data .order_data_column ._billing_persontype_field {
+    width: 100%;
+}
+#order_data .order_data_column ._billing_gender_field,
+#order_data .order_data_column ._billing_number_field,
+#order_data .order_data_column ._billing_ie_field,
+#order_data .order_data_column ._shipping_number_field,
+#order_data .order_data_column ._billing_rg_field {
+    clear: none;
+    margin-left: 13px;
+}
+.customer-info {
+    padding-top: 30px;
+    display: table;
+    clear: both;
+}
+.customer-info.block-mode,
+.customer-info.only-read {
+    padding-top: 0;
+}
+.customer-info.block-mode {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.customer-info.only-read {
+    display: block;
+}
+.data-extra-fields-title .title-fields > .dashicons {
+    margin-right: 5px;
+}
+.data-extra-fields-title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-top: 20px;
+}
+.data-extra-fields-title > .dashicons-edit {
+    cursor: pointer;
+    color: #aaa;
+}
+.data-extra-fields-title > .dashicons-edit:hover {
+    color: #333;
+}
+.virtuaria-correios-hide-fields {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+    #order_data .order_data_column ._billing_gender_field,
+    #order_data .order_data_column ._billing_number_field,
+    #order_data .order_data_column ._billing_ie_field,
+    #order_data .order_data_column ._shipping_number_field,
+    #order_data .order_data_column ._billing_rg_field {
+        clear: none;
+        margin-left: 11px;
+    }
+}

@@ -1,0 +1,18 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+?>
+<div class="tabs-content">
+<br><br>
+<?php esc_html_e( "Export single order automatically when it's paid or created",'woocommerce-order-export' )?>.
+<a href="https://docs.algolplus.com/algol_order_export/pro-version-algol_order_export/status-change-jobs/" target=_blank>
+<?php esc_html_e( 'More details','woocommerce-order-export' )?></a>
+<hr>
+<?php
+/* translators: purchase Pro link  */
+echo sprintf( esc_html__( 'Buy %s to get access to this section', 'woocommerce-order-export' ),
+	sprintf( '<a href="https://algolplus.com/plugins/downloads/advanced-order-export-for-woocommerce-pro/" target=_blank>%s</a>', esc_html__( 'Pro version', 'woocommerce-order-export' ) )
+	);
+?>
+</div>

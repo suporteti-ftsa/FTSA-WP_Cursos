@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Testing and Quality Assurance
+
+- Write unit tests using the WP_UnitTestCase framework for WordPress code.
+- Cover edge cases and error conditions in all tests.
+- Use integration and end-to-end tests for complex workflows.
+- Automate testing with CI/CD pipelines.
+- Maintain high test coverage and update tests with code changes.
+*/

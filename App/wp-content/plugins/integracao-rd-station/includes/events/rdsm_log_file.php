@@ -1,0 +1,43 @@
+<?php
+
+require_once(RDSM_SRC_DIR . '/events/rdsm_events_interface.php');
+require_once(RDSM_SRC_DIR . '/helpers/rdsm_log_file_helper.php');
+
+class RDSMLogFile implements RDSMEventsInterface {
+
+  public function register_hooks() {
+    add_action('wp_ajax_rdsm-log-file', array($this, 'load_log_file'));
+    add_action('wp_ajax_rdsm-clear-log-file', array($this, 'clear_log_file'));
+
+    // Novo endpoint AJAX para filtro
+    add_action('wp_ajax_rdsm_get_log_by_filter', array($this, 'get_log_by_filter'));
+  }
+
+  public function load_log_file() {
+    if (!isset($_POST['rd_form_nonce']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['rd_form_nonce'])), 'rd-form-nonce')) {
+      wp_die('0', 400);
+    }
+
+    wp_send_json(RDSMLogFileHelper::get_log_file());
+  }
+
+  public function clear_log_file() {
+    if (!isset($_POST['rd_form_nonce']) || !wp_verify_nonce(sanitize_text_field(wp_unslash($_POST['rd_form_nonce'])), 'rd-form-nonce')) {
+      wp_die('0', 400);
+    }
+
+    wp_send_json(RDSMLogFileHelper::clear_log_file());
+  }
+
+  //Novo método AJAX para retornar log filtrado
+  public function get_log_by_filter() {
+    if (!current_user_can('manage_options')) {
+      wp_send_json_error('Unauthorized');
+    }
+
+    $filter = isset($_GET['filter']) ? sanitize_text_field($_GET['filter']) : 'all';
+    $logs = RDSMLogFileHelper::get_filtered_logs($filter);
+
+    wp_send_json_success(implode("\n", $logs));
+  }
+}

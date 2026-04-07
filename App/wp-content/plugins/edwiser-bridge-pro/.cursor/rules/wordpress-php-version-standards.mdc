@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: PHP Version and Coding Standards
+
+- Require PHP 7.4+ (or higher, as project requires) for all code.
+- Enforce WordPress PHP coding standards using phpcs with the WordPress ruleset.
+- Prefer WordPress standards over PSR-12 where they differ.
+- Use Yoda conditions and brace placement as per WordPress guidelines.
+*/

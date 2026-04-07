@@ -1,0 +1,31 @@
+.woocommerce-checkout .delivery-time,
+.woocommerce-cart .delivery-time {
+    display: inline;
+    font-size: 15px;
+    line-height: 1px;
+    font-weight: normal;
+}
+.woocommerce-checkout table.shop_table td small,
+.woocommerce-cart .cart_totals p.delivery-time small {
+    font-size: inherit;
+}
+.woocommerce-checkout ul#shipping_method .amount,
+.woocommerce-cart ul#shipping_method .amount {
+    color: green;
+}
+.woocommerce-checkout .delivery-time::before,
+.woocommerce-cart .delivery-time::before {
+    content: " ( ";
+}
+.woocommerce-checkout .delivery-time::after,
+.woocommerce-cart .delivery-time::after {
+    content: " ) ";
+}
+.woocommerce-checkout #shipping_method label {
+    font-weight: bold;
+}
+
+.theme-blocksy span.select2-container .select2-selection--single .select2-selection__rendered {height: auto;}
+.theme-blocksy .select2-container--default .select2-selection--single {
+    padding: 7px 5px;
+}

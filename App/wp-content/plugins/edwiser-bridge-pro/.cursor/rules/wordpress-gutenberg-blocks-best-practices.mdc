@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+/*
+MDC Rule: Gutenberg Block Best Practices
+
+- Use functional React components and hooks for all block logic.
+- Use `@wordpress/i18n` for all strings (never hardcode user-facing text).
+- Use `useBlockProps` for block root elements.
+- Use BEM or CSS modules for class naming.
+- Avoid direct DOM manipulation; use React state and effects.
+- Use prop-types or TypeScript for type safety.
+- Use async/await for data fetching; show loading states.
+- Write unit tests for all components and hooks.
+- Document props, hooks, and utilities with JSDoc or TypeScript.
+- Keep all block logic modular and reusable.
+*/
