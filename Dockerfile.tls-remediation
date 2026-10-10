@@ -1,0 +1,20 @@
+# RCA1-E5 - CURSOS MySQL TLS remediation overlay
+#
+# This image deliberately starts from the frozen, known-good PROD digest.
+# It MUST NOT rebuild the legacy WordPress/PHP stack from amazonlinux:latest.
+FROM 767623923282.dkr.ecr.us-east-2.amazonaws.com/cursos@sha256:59d5c3010ec7cd33595b2f0e4bd7e15ce668175470f1d184db052f24f5bfad61
+
+ARG RDS_CA_URL="https://truststore.pki.rds.amazonaws.com/us-east-2/us-east-2-bundle.pem"
+ARG RDS_CA_SHA256
+
+RUN test -n "${RDS_CA_SHA256}" \
+    && mkdir -p /etc/pki/rds \
+    && curl --fail --silent --show-error --location "${RDS_CA_URL}" \
+         --output /etc/pki/rds/us-east-2-bundle.pem \
+    && printf '%s  %s\n' "${RDS_CA_SHA256}" "/etc/pki/rds/us-east-2-bundle.pem" \
+         | sha256sum --check --strict - \
+    && chmod 0644 /etc/pki/rds/us-east-2-bundle.pem
+
+COPY --chown=apache:apache App/wp-content/db.php /var/www/html/public_html/wp-content/db.php
+
+# Preserve the existing runtime command from the frozen base image.
