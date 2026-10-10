@@ -1,0 +1,44 @@
+version: 0.2
+
+env:
+  variables:
+    AWS_REGION: us-east-2
+    ECR_REPOSITORY: cursos
+    TLS_DOCKERFILE: Dockerfile.tls-remediation
+
+phases:
+  pre_build:
+    commands:
+      - set -euo pipefail
+      - set +x
+      - test -n "${RDS_CA_SHA256:-}"
+      - ACCOUNT_ID="$(aws sts get-caller-identity --query Account --output text)"
+      - test "${ACCOUNT_ID}" = "767623923282"
+      - REPOSITORY_URI="${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY}"
+      - SOURCE_SHA="${CODEBUILD_RESOLVED_SOURCE_VERSION}"
+      - IMAGE_TAG="tls-rca1-$(printf '%s' "${SOURCE_SHA}" | cut -c1-12)"
+      - aws ecr get-login-password --region "${AWS_REGION}" | docker login --username AWS --password-stdin "${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
+
+  build:
+    commands:
+      - set -euo pipefail
+      - set +x
+      - docker build --pull=false --file "${TLS_DOCKERFILE}" --build-arg "RDS_CA_SHA256=${RDS_CA_SHA256}" --tag "${REPOSITORY_URI}:${IMAGE_TAG}" .
+      - docker image inspect "${REPOSITORY_URI}:${IMAGE_TAG}" --format '{{index .RepoTags 0}}'
+
+  post_build:
+    commands:
+      - set -euo pipefail
+      - set +x
+      - docker push "${REPOSITORY_URI}:${IMAGE_TAG}"
+      - IMAGE_DIGEST="$(aws ecr describe-images --region "${AWS_REGION}" --repository-name "${ECR_REPOSITORY}" --image-ids imageTag="${IMAGE_TAG}" --query 'imageDetails[0].imageDigest' --output text)"
+      - test -n "${IMAGE_DIGEST}"
+      - test "${IMAGE_DIGEST}" != "None"
+      - printf '%s\n' "SOURCE_SHA=${SOURCE_SHA}" > tls-remediation-build.txt
+      - printf '%s\n' "IMAGE_TAG=${IMAGE_TAG}" >> tls-remediation-build.txt
+      - printf '%s\n' "IMAGE_DIGEST=${IMAGE_DIGEST}" >> tls-remediation-build.txt
+      - printf '%s\n' "IMAGE_URI=${REPOSITORY_URI}@${IMAGE_DIGEST}" >> tls-remediation-build.txt
+
+artifacts:
+  files:
+    - tls-remediation-build.txt
